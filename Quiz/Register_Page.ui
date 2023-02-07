@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1366</width>
+    <height>705</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Register</string>
+  </property>
+  <widget class="QLineEdit" name="email_box">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>290</y>
+     <width>311</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>Enter Your E-mail Address</string>
+   </property>
+   <property name="toolTipDuration">
+    <number>3</number>
+   </property>
+   <property name="statusTip">
+    <string>Enter Your E-mail Address</string>
+   </property>
+   <property name="whatsThis">
+    <string>Enter Your E-mail Address</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">.QLineEdit {
+border-radius: 8px;
+}</string>
+   </property>
+   <property name="placeholderText">
+    <string>                                Enter Your  Email Address</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="confirm_box">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>510</y>
+     <width>311</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>Re-enter Your Password</string>
+   </property>
+   <property name="toolTipDuration">
+    <number>3</number>
+   </property>
+   <property name="statusTip">
+    <string>Enter Your Password</string>
+   </property>
+   <property name="whatsThis">
+    <string>Enter Your Password</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">.QLineEdit {
+border-radius: 8px;
+}</string>
+   </property>
+   <property name="placeholderText">
+    <string>                               Re-enter Your Password</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="password_box">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>400</y>
+     <width>311</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>Enter Your Password</string>
+   </property>
+   <property name="toolTipDuration">
+    <number>3</number>
+   </property>
+   <property name="statusTip">
+    <string>Enter Your Password</string>
+   </property>
+   <property name="whatsThis">
+    <string>Enter Your Password</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">.QLineEdit {
+border-radius: 8px;
+}</string>
+   </property>
+   <property name="placeholderText">
+    <string>                                  Enter Your Password</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="username_box">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>180</y>
+     <width>311</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>Enter Your Username</string>
+   </property>
+   <property name="toolTipDuration">
+    <number>3</number>
+   </property>
+   <property name="statusTip">
+    <string>Enter Your Username</string>
+   </property>
+   <property name="whatsThis">
+    <string>Enter Your Username</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">.QLineEdit {
+border-radius: 8px;
+}</string>
+   </property>
+   <property name="placeholderText">
+    <string>                                 Enter Your Username</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="reg_btn">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>600</y>
+     <width>201</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="toolTip">
+    <string>Click Here to Register</string>
+   </property>
+   <property name="toolTipDuration">
+    <number>3</number>
+   </property>
+   <property name="statusTip">
+    <string>Click Here to Register</string>
+   </property>
+   <property name="whatsThis">
+    <string>Click Here to Register</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">.QPushButton {
+background: blue;
+border-radius: 8px;
+color: white;
+}
+
+.QPushButton:hover {
+border-radius: 8px;
+background: white;
+color: black;
+font-weight: bold;
+font-size: 26px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Register</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancel_btn">
+   <property name="geometry">
+    <rect>
+     <x>1020</x>
+     <y>600</y>
+     <width>201</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="toolTip">
+    <string>Click Here to Cancel</string>
+   </property>
+   <property name="toolTipDuration">
+    <number>3</number>
+   </property>
+   <property name="statusTip">
+    <string>Click Here to Cancel</string>
+   </property>
+   <property name="whatsThis">
+    <string>Click Here to Cancel</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">.QPushButton {
+background: red;
+border-radius: 8px;
+color: white;
+}
+
+.QPushButton:hover {
+border-radius: 8px;
+background: white;
+color: black;
+font-weight: bold;
+font-size: 26px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Cancel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>641</width>
+     <height>731</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../Desktop/lumut151100229.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>-10</y>
+     <width>981</width>
+     <height>731</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">.QLabel {
+background-color: black
+}</string>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>70</y>
+     <width>471</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Bradley Hand ITC</family>
+     <pointsize>72</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">.QLabel {
+color: red;
+}
+
+.QLabel:hover {
+font-weight: bold;
+}</string>
+   </property>
+   <property name="text">
+    <string>REGISTER</string>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>email_box</zorder>
+  <zorder>confirm_box</zorder>
+  <zorder>password_box</zorder>
+  <zorder>username_box</zorder>
+  <zorder>reg_btn</zorder>
+  <zorder>cancel_btn</zorder>
+  <zorder>label_3</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

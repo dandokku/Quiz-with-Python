@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1366</width>
+    <height>705</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Login</string>
+  </property>
+  <widget class="QLineEdit" name="username_box">
+   <property name="geometry">
+    <rect>
+     <x>860</x>
+     <y>240</y>
+     <width>371</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>Enter Your Username</string>
+   </property>
+   <property name="toolTipDuration">
+    <number>3</number>
+   </property>
+   <property name="statusTip">
+    <string>Enter Your Username</string>
+   </property>
+   <property name="whatsThis">
+    <string>Enter Your Username</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">.QLineEdit {
+border-radius: 8px;
+}</string>
+   </property>
+   <property name="maxLength">
+    <number>25</number>
+   </property>
+   <property name="cursorPosition">
+    <number>0</number>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="placeholderText">
+    <string>  Username</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="password_box">
+   <property name="geometry">
+    <rect>
+     <x>860</x>
+     <y>362</y>
+     <width>371</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="toolTip">
+    <string>Enter Your Password</string>
+   </property>
+   <property name="toolTipDuration">
+    <number>3</number>
+   </property>
+   <property name="statusTip">
+    <string>Enter Your Password</string>
+   </property>
+   <property name="whatsThis">
+    <string>Enter Your Password</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">.QLineEdit {
+border-radius: 8px;
+}</string>
+   </property>
+   <property name="inputMethodHints">
+    <set>Qt::ImhHiddenText|Qt::ImhNoAutoUppercase|Qt::ImhNoPredictiveText|Qt::ImhSensitiveData</set>
+   </property>
+   <property name="maxLength">
+    <number>8</number>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Password</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="placeholderText">
+    <string>  Password</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="log_btn">
+   <property name="geometry">
+    <rect>
+     <x>790</x>
+     <y>480</y>
+     <width>231</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="toolTip">
+    <string>Login</string>
+   </property>
+   <property name="toolTipDuration">
+    <number>3</number>
+   </property>
+   <property name="statusTip">
+    <string>Login</string>
+   </property>
+   <property name="whatsThis">
+    <string>Login</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">.QPushButton {
+background: blue;
+border-radius: 8px;
+color: white;
+}
+
+.QPushButton:hover {
+border-radius: 8px;
+background: white;
+color: black;
+font-weight: bold;
+font-size: 26px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Login</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>-20</x>
+     <y>0</y>
+     <width>661</width>
+     <height>711</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../Desktop/lumut151100229.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancel_btn">
+   <property name="geometry">
+    <rect>
+     <x>1070</x>
+     <y>480</y>
+     <width>231</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="toolTip">
+    <string>Cancel</string>
+   </property>
+   <property name="toolTipDuration">
+    <number>3</number>
+   </property>
+   <property name="statusTip">
+    <string>Cancel</string>
+   </property>
+   <property name="whatsThis">
+    <string>Cancel</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">.QPushButton {
+background: red;
+border-radius: 8px;
+color: white;
+}
+
+.QPushButton:hover {
+border-radius: 8px;
+background: white;
+color: black;
+font-weight: bold;
+font-size: 26px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Cancel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>900</x>
+     <y>100</y>
+     <width>301</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Bradley Hand ITC</family>
+     <pointsize>72</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">.QLabel {
+color: blue;
+}
+
+.QLabel:hover {
+font-weight: bold;
+}</string>
+   </property>
+   <property name="text">
+    <string>LOGIN</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>0</y>
+     <width>991</width>
+     <height>721</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">.QLabel {
+background-color: black
+}</string>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <zorder>label_4</zorder>
+  <zorder>username_box</zorder>
+  <zorder>password_box</zorder>
+  <zorder>log_btn</zorder>
+  <zorder>label_2</zorder>
+  <zorder>cancel_btn</zorder>
+  <zorder>label_3</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

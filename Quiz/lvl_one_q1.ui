@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1366</width>
+    <height>705</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>-20</x>
+     <y>-10</y>
+     <width>1461</width>
+     <height>871</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../Pictures/Backgrounds/85383163803ea47b23d89642da4f9f72.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>150</y>
+     <width>891</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>BlankCursor</cursorShape>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">.QLabel {
+color: black
+}</string>
+   </property>
+   <property name="text">
+    <string>Which branch of science is concerned with the nature and properties of matter and energy?</string>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="a">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>380</y>
+     <width>901</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="toolTip">
+    <string>Dandokku Level</string>
+   </property>
+   <property name="toolTipDuration">
+    <number>3</number>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">.QPushButton {
+	selection-background-color: rgb(255, 0, 4);
+background: rgb(255, 107, 142);
+color: white;
+border-color: rgb(255, 217, 250);
+border-radius: 8px;
+	border-top-color: rgb(255, 211, 212);
+	gridline-color: rgb(255, 110, 112);
+}
+
+.QPushButton:hover {
+border-radius: 8px;
+background: rgb(255, 93, 104);
+color: white;
+font-weight: bold;
+font-size: 26px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Chemistry</string>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="b">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>450</y>
+     <width>901</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="toolTip">
+    <string>Dandokku Level</string>
+   </property>
+   <property name="toolTipDuration">
+    <number>3</number>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">.QPushButton {
+	selection-background-color: rgb(255, 0, 4);
+background: rgb(255, 107, 142);
+color: white;
+border-color: rgb(255, 217, 250);
+border-radius: 8px;
+	border-top-color: rgb(255, 211, 212);
+	gridline-color: rgb(255, 110, 112);
+}
+
+.QPushButton:hover {
+border-radius: 8px;
+background: rgb(255, 93, 104);
+color: white;
+font-weight: bold;
+font-size: 26px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Biology</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="c">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>520</y>
+     <width>901</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="toolTip">
+    <string>Dandokku Level</string>
+   </property>
+   <property name="toolTipDuration">
+    <number>3</number>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">.QPushButton {
+	selection-background-color: rgb(255, 0, 4);
+background: rgb(255, 107, 142);
+color: white;
+border-color: rgb(255, 217, 250);
+border-radius: 8px;
+	border-top-color: rgb(255, 211, 212);
+	gridline-color: rgb(255, 110, 112);
+}
+
+.QPushButton:hover {
+border-radius: 8px;
+background: rgb(255, 93, 104);
+color: white;
+font-weight: bold;
+font-size: 26px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Mathematics</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="d">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>590</y>
+     <width>901</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="toolTip">
+    <string>Dandokku Level</string>
+   </property>
+   <property name="toolTipDuration">
+    <number>3</number>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">.QPushButton {
+	selection-background-color: rgb(255, 0, 4);
+background: rgb(255, 107, 142);
+color: white;
+border-color: rgb(255, 217, 250);
+border-radius: 8px;
+	border-top-color: rgb(255, 211, 212);
+	gridline-color: rgb(255, 110, 112);
+}
+
+.QPushButton:hover {
+border-radius: 8px;
+background: rgb(255, 93, 104);
+color: white;
+font-weight: bold;
+font-size: 26px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Physics</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="exit_btn">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>670</y>
+     <width>241</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="toolTip">
+    <string>Dandokku Level</string>
+   </property>
+   <property name="toolTipDuration">
+    <number>3</number>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">.QPushButton {
+	selection-background-color: rgb(255, 0, 4);
+background: rgb(255, 231, 239);
+color: black;
+border-color: rgb(255, 217, 250);
+border-radius: 8px;
+	border-top-color: rgb(255, 211, 212);
+	gridline-color: rgb(255, 110, 112);
+}
+
+.QPushButton:hover {
+border-radius: 8px;
+background: rgb(255, 93, 104);
+color: white;
+font-weight: bold;
+font-size: 26px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="lcdNumber">
+   <property name="geometry">
+    <rect>
+     <x>1240</x>
+     <y>80</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">.QLCDNumber {
+color: rgb(109, 47, 48);
+background-color: ;
+border-radius: 10px
+}</string>
+   </property>
+   <property name="digitCount">
+    <number>5</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>640</y>
+     <width>151</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>26</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">.QLabel {
+color: black;
+}</string>
+   </property>
+   <property name="text">
+    <string>1/5</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>80</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>30</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">.QLabel {
+color: red;
+}</string>
+   </property>
+   <property name="text">
+    <string>SCORE: </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="sco">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>80</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>30</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">.QLabel {
+color: red;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>130</y>
+     <width>911</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_2">
+   <property name="geometry">
+    <rect>
+     <x>211</x>
+     <y>139</y>
+     <width>20</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_3">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>360</y>
+     <width>911</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_4">
+   <property name="geometry">
+    <rect>
+     <x>1122</x>
+     <y>137</y>
+     <width>20</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

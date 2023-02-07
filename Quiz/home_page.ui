@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Home</class>
+ <widget class="QDialog" name="Home">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1366</width>
+    <height>705</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Home</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>-10</y>
+     <width>1371</width>
+     <height>781</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../Downloads/pexels-daniel-putzer-633409.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>488</x>
+     <y>0</y>
+     <width>351</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Bradley Hand ITC</family>
+     <pointsize>72</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">.QLabel {
+color: red;
+}
+
+.QLabel:hover {
+font-weight: bold;
+}</string>
+   </property>
+   <property name="text">
+    <string>Einstein</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="log_btn">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>208</y>
+     <width>381</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>24</pointsize>
+    </font>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Login&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="toolTipDuration">
+    <number>-1</number>
+   </property>
+   <property name="statusTip">
+    <string>Login</string>
+   </property>
+   <property name="whatsThis">
+    <string>Login</string>
+   </property>
+   <property name="accessibleName">
+    <string>Login</string>
+   </property>
+   <property name="accessibleDescription">
+    <string>Login</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">.QPushButton {
+background: red;
+color: black;
+border-radius: 8px;
+}
+
+.QPushButton:hover {
+background: white;
+color: black;
+font-weight: bold;
+border-radius: 8px;
+font-size: 26px
+}</string>
+   </property>
+   <property name="text">
+    <string>Login</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="reg_btn">
+   <property name="geometry">
+    <rect>
+     <x>469</x>
+     <y>359</y>
+     <width>381</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>24</pointsize>
+    </font>
+   </property>
+   <property name="toolTip">
+    <string>Register</string>
+   </property>
+   <property name="toolTipDuration">
+    <number>-1</number>
+   </property>
+   <property name="statusTip">
+    <string>Register</string>
+   </property>
+   <property name="whatsThis">
+    <string>Register</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">.QPushButton {
+background: red;
+color: black;
+border-radius: 8px;
+}
+
+.QPushButton:hover {
+background: white;
+color: black;
+font-weight: bold;
+border-radius: 8px;
+font-size: 26px
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Register</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="exit">
+   <property name="geometry">
+    <rect>
+     <x>469</x>
+     <y>509</y>
+     <width>381</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>24</pointsize>
+    </font>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:72pt; font-weight:600;&quot;&gt;Exit&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="toolTipDuration">
+    <number>-1</number>
+   </property>
+   <property name="statusTip">
+    <string>Exit</string>
+   </property>
+   <property name="whatsThis">
+    <string>Exit</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">.QPushButton {
+background: red;
+color: black;
+border-radius: 8px;
+}
+
+.QPushButton:hover {
+background: white;
+color: black;
+font-weight: bold;
+border-radius: 8px;
+font-size: 26px
+}</string>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
